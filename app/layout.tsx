@@ -27,6 +27,19 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+
+        <div className="flex gap-5 w-full bg-gray-400 p-5 justify-between">
+          <div>
+            <a href="/" className="2xl text-black font-bold">Navbar</a>
+          </div>
+
+          <div className="flex gap-5 ml-5">
+            <a href="/about" className="2xl text-black font-bold">About</a>
+            <a href="/profile" className="2xl text-black font-bold">Profile</a>
+          </div>
+
+        </div>
+
         {children}
       </body>
     </html>
