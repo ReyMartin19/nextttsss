@@ -20,9 +20,9 @@ export default function Page(){
       <br /> 
 
       {
-        data.map((item) => {
+        data.map((item, index) => {
           return (
-            <Product name={item.name} price={item.price} />
+            <Product key={index} name={item.name} price={item.price} />
           )
         })
       }

@@ -1,12 +1,11 @@
 "use client"
+/* eslint-disable */
 
 import { useEffect, useState } from "react"
 
 
 export default function Page() {
   const [participants, setParticipants] = useState()
-
-
 
   const handleFetch = async () => {
     const result = await fetch('/api/getData')

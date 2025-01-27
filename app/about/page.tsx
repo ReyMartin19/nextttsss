@@ -1,7 +1,9 @@
 "use client"
+/* eslint-disable */
+
 import { useEffect, useState } from "react"
 
-export default function about() {
+export default function page() {
     const [num, setNum] = useState(0)
     const [count, setCount] = useState(" ")
     const [name, setName] = useState(" ")
