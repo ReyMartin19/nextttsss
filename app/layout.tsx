@@ -37,6 +37,7 @@ export default function RootLayout({
 
           <div className="flex gap-5 ml-5">
             <a href="/about" className="2xl text-black font-bold">About</a>
+            <a href="/contacts" className="2xl text-black font-bold">Contacts</a>
             <a href="/profile" className="2xl text-black font-bold">Profile</a>
           </div>
 
